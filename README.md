@@ -7,13 +7,31 @@ A simple yet powerful demonstration of React's useState hook functionality.
 
 ## Features
 
-- Interactive counter example
-- State management with useState
+- Interactive examples demonstrating React state management
 - Clean and minimal UI
 - Easy to understand implementation
 - Vite-powered development environment
 
+## Mini Projects
+
+### Counter <!-- className='text-6xl absolute top-[4rem]' -->
+
+A simple counter that increments and decrements a value, demonstrating basic useState hook usage.
+
+### Users List <!-- className='text-6xl relative top-[4rem]' -->
+
+Displays a list of users with their details, showing how to manage arrays of objects in state.
+
+### LiftStateUp Input <!-- className='text-6xl relative top-[4rem]' -->
+
+Demonstrates lifting state up between components by managing input value in parent component.
+
+### Toggle Button <!-- className='text-6xl relative top-[4rem]' -->
+
+A switch that toggles between on/off states, showing state management with boolean values.
+
 ## Installation
+
 
 1. Clone the repository:
    ```bash
@@ -44,9 +62,14 @@ A simple yet powerful demonstration of React's useState hook functionality.
 ```
 states/
 ├── src/
-│   ├── hooks/
-│   │   ├── UseState.jsx
-│   │   └── UseStateObject.jsx
+│   ├── components/
+│   │   └── hooks/
+│   │       ├── UseState.jsx
+│   │       ├── UseStateObject.jsx
+│   │       ├── LiftStateUp.jsx
+│   │       ├── ToggleSwich.jsx
+│   │       └── hook-css/
+│   │           └── toggle-swich.css
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
@@ -54,6 +77,7 @@ states/
 ├── package.json
 └── vite.config.js
 ```
+
 
 ## Contributing
 

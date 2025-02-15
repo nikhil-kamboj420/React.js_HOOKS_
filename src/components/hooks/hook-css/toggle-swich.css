@@ -1,0 +1,17 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+.isOn{
+    background-color: #4feb12;
+    border: 4px solid ghostwhite;
+    transform: translateX(12.5rem);
+    transition: all 300ms ease-in-out;
+}
+.isOff{
+    background-color: #f91414;
+    border: 4px solid ghostwhite;
+    transition: all 300ms ease-in-out;
+}

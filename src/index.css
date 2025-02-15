@@ -1,3 +1,4 @@
+@import "tailwindcss";
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -55,9 +56,39 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.main-div{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap{
+  width: 70vw;
+  height: 50vh;
+  border: 2px solid greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+.liftUpInput{
+  width: 100%;
+  padding: 1.5rem 3rem;
+  margin-top: 6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 2rem;
+  font-family: inherit;
+}
 
 hr{
-  width: 100vw;
+  width: 80vw;
 }
 
 li{
