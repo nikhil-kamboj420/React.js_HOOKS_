@@ -6,7 +6,7 @@ export const UseState = () => {
 
   return (
     <>
-    <h1 className='text-6xl absolute top-[4rem]'>Counter</h1>
+    <h1 className='text-6xl relative'>Counter</h1>
     <section className={"main-div"}>
         <button onClick={() => setCount((count) => count + 1)}>
           {count}
