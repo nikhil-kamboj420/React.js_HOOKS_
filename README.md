@@ -14,19 +14,26 @@ A simple yet powerful demonstration of React's useState hook functionality.
 
 ## Mini Projects
 
-### Counter <!-- className='text-6xl absolute top-[4rem]' -->
+### Challenge
+
+A simple React component that allows users to increment and decrement a counter using two buttons. It includes:
+- A reset button to set the count back to zero.
+- Maximum and minimum limits for the counter, disabling the increment button when the count exceeds 99 and the decrement button when the count is less than 1.
+- An input field to allow users to set the step value by which the counter should increment or decrement.
+
+### Counter
 
 A simple counter that increments and decrements a value, demonstrating basic useState hook usage.
 
-### Users List <!-- className='text-6xl relative top-[4rem]' -->
+### Users List
 
 Displays a list of users with their details, showing how to manage arrays of objects in state.
 
-### LiftStateUp Input <!-- className='text-6xl relative top-[4rem]' -->
+### LiftStateUp Input
 
 Demonstrates lifting state up between components by managing input value in parent component.
 
-### Toggle Button <!-- className='text-6xl relative top-[4rem]' -->
+### Toggle Button
 
 A switch that toggles between on/off states, showing state management with boolean values.
 
@@ -68,6 +75,7 @@ states/
 │   │       ├── UseStateObject.jsx
 │   │       ├── LiftStateUp.jsx
 │   │       ├── ToggleSwich.jsx
+│   │       └── Challenge.jsx
 │   │       └── hook-css/
 │   │           └── toggle-swich.css
 │   ├── App.jsx
