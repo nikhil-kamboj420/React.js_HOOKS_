@@ -17,20 +17,15 @@ export const Challenge = () => {
 
   //* defining functions
   const handleIncrement = () => {
-    if (count < 100) {
       setCount(() => count + step);
-    }
+      console.log('hello')
   };
   const handleDecrement = () => {
-    if (count > 0) {
       setCount(() => count - step);
-    }
   };
 
   const handleStep = (stepValue) => {
-    if (count < 100) {
       setStep(stepValue);
-    }
   };
 
   return (
@@ -48,8 +43,8 @@ export const Challenge = () => {
         value={step}
         onChange={(e) => handleStep(Number(e.target.value))}
       />
-      <button onClick={() => handleIncrement()}>Increment</button>
-      <button onClick={() => handleDecrement()}>Decrement</button>
+      <button onClick={() => handleIncrement()} disabled={count > 99}>Increment</button>
+      <button onClick={() => handleDecrement()} disabled={count < 1}>Decrement</button>
       <button onClick={() => setCount(0)}>Reset</button>
     </div>
   );
