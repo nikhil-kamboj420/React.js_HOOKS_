@@ -1,4 +1,4 @@
-# React States Project
+# React Hooks 
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
@@ -18,7 +18,6 @@ A simple yet powerful demonstration of React's useState hook functionality.
 
 A form that allows users to log in by entering their username and password. It includes validation to ensure that the fields are filled out before submission and logs the user data to the console upon submission.
 
-
 ### Registration Form
 
 A form that allows users to register by entering their name, email, and password. It includes validation to ensure all fields are filled out before submission.
@@ -29,7 +28,6 @@ A simple React component that allows users to increment and decrement a counter 
 - A reset button to set the count back to zero.
 - Maximum and minimum limits for the counter, disabling the increment button when the count exceeds 99 and the decrement button when the count is less than 1.
 - An input field to allow users to set the step value by which the counter should increment or decrement.
-
 
 ### Counter
 
@@ -48,7 +46,6 @@ Demonstrates lifting state up between components by managing input value in pare
 A switch that toggles between on/off states, showing state management with boolean values.
 
 ## Installation
-
 
 1. Clone the repository:
    ```bash
@@ -71,24 +68,25 @@ A switch that toggles between on/off states, showing state management with boole
 
 1. Start the development server as shown in the installation steps
 2. Open your browser and navigate to `http://localhost:5173`
-3. Interact with the counter component
-4. Explore the code in `src/hooks/` to understand useState implementation
+3. Interact with the various mini-projects
+4. Explore the code in `src/components/hooks/useState/` to understand useState implementation
 
 ## Project Structure
 ```
 states/
 ├── src/
 │   ├── components/
-│   │   ├── LoginForm.jsx
-│   │   ├── RegistrationForm.jsx
-│   │   └── hooks/
-│   │       ├── UseState.jsx
-│   │       ├── UseStateObject.jsx
-│   │       ├── LiftStateUp.jsx
-│   │       ├── ToggleSwich.jsx
-│   │       └── Challenge.jsx
-│   │       └── hook-css/
-│   │           └── toggle-swich.css
+│   │   ├── hooks/
+│   │   │   ├── useState/
+│   │   │   │   ├── Challenge.jsx
+│   │   │   │   ├── Counter.jsx
+│   │   │   │   ├── LiftStateUp.jsx
+│   │   │   │   ├── LoginForm.jsx
+│   │   │   │   ├── RegistrationForm.jsx
+│   │   │   │   ├── ToggleSwich.jsx
+│   │   │   │   └── UseStateObject.jsx
+│   │   │   └── hook-css/
+│   │   │       └── toggle-swich.css
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
@@ -97,7 +95,6 @@ states/
 └── vite.config.js
 
 ```
-
 
 ## Contributing
 

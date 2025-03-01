@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./hook-css/toggle-swich.css"
+import "../hook-css/toggle-swich.css"
 
 export const ToggleSwich = ()=>{
     const [isOn, setIsOn] = useState(false);

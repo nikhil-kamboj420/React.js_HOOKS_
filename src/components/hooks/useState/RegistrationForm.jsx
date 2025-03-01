@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const RegisterationForm = () => {
+export const RegistrationForm = () => {
   const [user, setUser] = useState({});
 
   //* handle inputValue 
@@ -19,14 +19,14 @@ export const RegisterationForm = () => {
 
   return (
     <div className=" h-[100vh] max-w-[100vw] ">
-      <div className="lg:max-w-[30vw] bg-amber-300 min-h-[60vh] max-w-[50vw] m-auto mt-7 p-3">
+      <div className="lg:max-w-[30vw] bg-amber-300 min-h-[60vh] max-w-[80vw] m-auto mt-1 p-4">
         <h1 className="text-black text-left text-xl  font-bold">Sign Up</h1>
         <p className="text-black text-left my-1">
           Please fill in this form to create an account
         </p>
 
         <form className="flex flex-col gap-4" onSubmit={(e) => handleFormSubmit(e)}>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <label className="text-black text-left" htmlFor="firstName">
               First Name *
             </label>
@@ -39,7 +39,7 @@ export const RegisterationForm = () => {
               required
             />
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <label className="text-black text-left" htmlFor="lastName">
               Last Name *
             </label>
@@ -52,7 +52,7 @@ export const RegisterationForm = () => {
               required
             />
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <label className="text-black text-left" htmlFor="email">
               Email *
             </label>
@@ -65,7 +65,7 @@ export const RegisterationForm = () => {
               required
             />
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <label className="text-black text-left" htmlFor="password">
               Password *
             </label>
@@ -78,7 +78,7 @@ export const RegisterationForm = () => {
               required
             />
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <label className="text-black text-left" htmlFor="phoneNumber">
               Phone Number *
             </label>
@@ -91,11 +91,11 @@ export const RegisterationForm = () => {
               required
             />
           </div>
-          <p className="my-5">
+          <p className="my-2">
           By creating an account you agree to our{" "}
           <span className="text-blue-400">Terms & Policy</span>
         </p>
-        <button type="submit">Sign Up</button>
+        <button className="h-1.5 flex  justify-center items-center" type="submit">Sign Up</button>
         </form>
       </div>
     </div>
