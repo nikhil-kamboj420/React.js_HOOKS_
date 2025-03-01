@@ -14,6 +14,11 @@ A simple yet powerful demonstration of React's useState hook functionality.
 
 ## Mini Projects
 
+### Login Form
+
+A form that allows users to log in by entering their username and password. It includes validation to ensure that the fields are filled out before submission and logs the user data to the console upon submission.
+
+
 ### Registration Form
 
 A form that allows users to register by entering their name, email, and password. It includes validation to ensure all fields are filled out before submission.
@@ -70,11 +75,12 @@ A switch that toggles between on/off states, showing state management with boole
 4. Explore the code in `src/hooks/` to understand useState implementation
 
 ## Project Structure
-
 ```
 states/
 ├── src/
 │   ├── components/
+│   │   ├── LoginForm.jsx
+│   │   ├── RegistrationForm.jsx
 │   │   └── hooks/
 │   │       ├── UseState.jsx
 │   │       ├── UseStateObject.jsx
@@ -89,6 +95,7 @@ states/
 ├── public/
 ├── package.json
 └── vite.config.js
+
 ```
 
 
