@@ -14,12 +14,17 @@ A simple yet powerful demonstration of React's useState hook functionality.
 
 ## Mini Projects
 
+### Registration Form
+
+A form that allows users to register by entering their name, email, and password. It includes validation to ensure all fields are filled out before submission.
+
 ### Challenge
 
 A simple React component that allows users to increment and decrement a counter using two buttons. It includes:
 - A reset button to set the count back to zero.
 - Maximum and minimum limits for the counter, disabling the increment button when the count exceeds 99 and the decrement button when the count is less than 1.
 - An input field to allow users to set the step value by which the counter should increment or decrement.
+
 
 ### Counter
 
