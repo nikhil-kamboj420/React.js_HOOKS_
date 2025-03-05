@@ -10,8 +10,8 @@ import { UseStateObject } from "./components/hooks/useState/UseStateObject";
 
     {/* useState components */}
 import { Timer } from "./components/hooks/useEffect/Timer";
-
-
+    {/*useRef Component */}
+import { Example } from "./components/hooks/useref/example";
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
       <ToggleSwich/>
       {/* useEffect components */}
       <Timer/>
+      <Example/>
     </>
   );
 }
