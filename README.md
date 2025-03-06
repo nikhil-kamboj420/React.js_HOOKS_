@@ -45,6 +45,10 @@ Demonstrates lifting state up between components by managing input value in pare
 
 A switch that toggles between on/off states, showing state management with boolean values.
 
+### UseStateObject
+
+Demonstrates how to manage an object in state, providing an example of using useState with complex data structures.
+
 ## Installation
 
 1. Clone the repository:
@@ -83,7 +87,7 @@ states/
 │   │   │   │   ├── LiftStateUp.jsx
 │   │   │   │   ├── LoginForm.jsx
 │   │   │   │   ├── RegistrationForm.jsx
-│   │   │   │   ├── ToggleSwich.jsx
+│   │   │   │   ├── ToggleSwitch.jsx
 │   │   │   │   └── UseStateObject.jsx
 │   │   │   └── hook-css/
 │   │   │       └── toggle-swich.css
