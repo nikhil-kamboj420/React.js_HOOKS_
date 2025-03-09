@@ -49,6 +49,21 @@ A switch that toggles between on/off states, showing state management with boole
 
 Demonstrates how to manage an object in state, providing an example of using useState with complex data structures.
 
+## useRef Hook
+
+The `useRef` hook is used to create mutable object references that persist for the full lifetime of the component. It allows direct access to DOM elements without causing re-renders. 
+
+In this project, `useRef` is utilized in the following ways:
+- **Example Component**: Demonstrates how to manage input fields for username and password, logging their values upon form submission.
+- **ForwardRef Component**: Shows how to use `useRef` in conjunction with `forwardRef` to pass refs to child components, allowing for a more modular approach to handling input fields.
+
+## useEffect Hook
+
+The `useEffect` hook is used to perform side effects in function components. It allows you to synchronize a component with an external system, such as timers, API calls, or subscriptions.
+
+In this project, `useEffect` is utilized in the following way:
+- **Timer Component**: Demonstrates how to set up a timer that increments a count every second. The timer is started when the component mounts and cleaned up when the component unmounts to prevent memory leaks.
+
 ## Installation
 
 1. Clone the repository:
@@ -89,6 +104,11 @@ states/
 │   │   │   │   ├── RegistrationForm.jsx
 │   │   │   │   ├── ToggleSwitch.jsx
 │   │   │   │   └── UseStateObject.jsx
+│   │   │   ├── useRef/
+│   │   │   │   ├── Example.jsx
+│   │   │   │   └── ForwardRef.jsx
+│   │   │   ├── useEffect/
+│   │   │   │   └── Timer.jsx
 │   │   │   └── hook-css/
 │   │   │       └── toggle-swich.css
 │   ├── App.jsx
