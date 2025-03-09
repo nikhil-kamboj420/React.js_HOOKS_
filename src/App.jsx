@@ -13,6 +13,8 @@ import { Timer } from "./components/hooks/useEffect/Timer";
     {/*useRef Component */}
 import { Example } from "./components/hooks/useref/example";
 import { ForwardRef } from "./components/hooks/useref/ForwardRef";
+    {/* useId component */}
+import { UseId } from "./components/hooks/useId/UseId";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
       {/* useRef components */}
       <Example/>
       <ForwardRef/>
+      {/* useId component */}
+      <UseId/>
     </>
   );
 }

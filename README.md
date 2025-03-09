@@ -64,6 +64,13 @@ The `useEffect` hook is used to perform side effects in function components. It 
 In this project, `useEffect` is utilized in the following way:
 - **Timer Component**: Demonstrates how to set up a timer that increments a count every second. The timer is started when the component mounts and cleaned up when the component unmounts to prevent memory leaks.
 
+## useId Hook
+
+The `useId` hook is used to generate unique IDs for elements in a component. This is particularly useful for accessibility, as it allows labels to be associated with their corresponding input fields.
+
+In this project, `useId` is utilized in the following way:
+- **UseId Component**: Demonstrates how to generate unique IDs for form elements, ensuring that the `htmlFor` attribute of labels matches the `id` of the corresponding input fields.
+
 ## Installation
 
 1. Clone the repository:
@@ -109,6 +116,8 @@ states/
 │   │   │   │   └── ForwardRef.jsx
 │   │   │   ├── useEffect/
 │   │   │   │   └── Timer.jsx
+│   │   │   ├── useId/
+│   │   │   │   └── UseId.jsx
 │   │   │   └── hook-css/
 │   │   │       └── toggle-swich.css
 │   ├── App.jsx
