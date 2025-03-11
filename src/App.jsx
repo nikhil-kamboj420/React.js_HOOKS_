@@ -29,6 +29,10 @@ import { UseId } from "./components/hooks/useId/UseId";
 import { ThemeProvider } from "./components/hooks/contextApi/ContextApi";
 import { Navbar } from "./components/hooks/contextApi/Navbar";
 import { Content } from "./components/hooks/contextApi/Content";
+{
+  /* usereducer component */
+}
+import { CounterPP } from "./components/hooks/useReducer/CounterPP";
 
 function App() {
   return (
@@ -53,6 +57,8 @@ function App() {
         <Navbar />
         <Content />
       </ThemeProvider>
+      {/* usereducer component */}
+      <CounterPP />
     </>
   );
 }

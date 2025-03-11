@@ -56,6 +56,13 @@ A simple implementation of the Context API that allows for global state manageme
 - Components that consume the context to access and update the theme state.
 - A toggle button that allows users to switch between light and dark themes, demonstrating how to manage global state and re-render components based on context changes.
 
+### CounterPP
+
+A counter component that utilizes the `useReducer` hook for state management. This mini project includes:
+- A reducer function to manage the counter state.
+- Actions to increment, decrement, and reset the counter.
+- A user interface that allows users to interact with the counter, demonstrating how to effectively manage complex state logic with `useReducer`.
+
 ## useRef Hook
 
 The `useRef` hook is used to create mutable object references that persist for the full lifetime of the component. It allows direct access to DOM elements without causing re-renders. 
@@ -129,6 +136,8 @@ states/
 │   │   │   │   ├── ContextApi.jsx
 │   │   │   │   ├── Navbar.jsx
 │   │   │   │   └── Content.jsx
+│   │   │   └── useReducer/
+│   │   │       └── CounterPP.jsx
 │   │   │   └── hook-css/
 │   │   │       └── toggle-swich.css
 │   ├── App.jsx
