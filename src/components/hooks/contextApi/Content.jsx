@@ -1,8 +1,6 @@
-import { useContext } from "react";
-import { ThemeContext } from "./ContextApi";
-
+import { useTheme } from "./ContextApi";
 export const Content = () => {
-  const { theme } = useContext(ThemeContext);
+  const { theme } = useTheme();
 
   const themeCondition = `p-8 ${
     theme === "light"
