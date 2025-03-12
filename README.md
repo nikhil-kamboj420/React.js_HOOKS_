@@ -63,6 +63,12 @@ A counter component that utilizes the `useReducer` hook for state management. Th
 - Actions to increment, decrement, and reset the counter.
 - A user interface that allows users to interact with the counter, demonstrating how to effectively manage complex state logic with `useReducer`.
 
+### MemoComponent
+
+A component that demonstrates the use of `React.memo` and `useMemo` hooks for performance optimization. It includes:
+- A counter that increments  a value.
+- An expensive calculation that is memoized to avoid unnecessary recalculations.
+
 ## useRef Hook
 
 The `useRef` hook is used to create mutable object references that persist for the full lifetime of the component. It allows direct access to DOM elements without causing re-renders. 
@@ -136,8 +142,10 @@ states/
 │   │   │   │   ├── ContextApi.jsx
 │   │   │   │   ├── Navbar.jsx
 │   │   │   │   └── Content.jsx
-│   │   │   └── useReducer/
-│   │   │       └── CounterPP.jsx
+│   │   │   ├── useReducer/
+│   │   │   │   └── CounterPP.jsx
+│   │   │   └── memo/
+│   │   │       └── MemoComponent.jsx
 │   │   │   └── hook-css/
 │   │   │       └── toggle-swich.css
 │   ├── App.jsx

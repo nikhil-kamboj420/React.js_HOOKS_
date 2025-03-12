@@ -33,6 +33,10 @@ import { Content } from "./components/hooks/contextApi/Content";
   /* usereducer component */
 }
 import { CounterPP } from "./components/hooks/useReducer/CounterPP";
+{
+  /* Memo Component */
+}
+import MemoComponent from "./components/hooks/memo/MemoComponent";
 
 function App() {
   return (
@@ -59,6 +63,8 @@ function App() {
       </ThemeProvider>
       {/* usereducer component */}
       <CounterPP />
+      {/* Memo Component */}
+      <MemoComponent />
     </>
   );
 }
