@@ -22,6 +22,7 @@ export const CounterPP = () => {
   const [state, dispatch] = useReducer(counterReducer, initialState);
   return (
     <div className="h-lvh max-w-[100vw] flex flex-col justify-center items-center">
+       <h1>useReducer Hook</h1>
       <h1>{state.count}</h1>
       <button className="my-2" onClick={() => dispatch({ type: "Increment" })}>
         Increment

@@ -3,7 +3,7 @@ import { useState } from "react";
 export const RegistrationForm = () => {
   const [user, setUser] = useState({});
 
-  //* handle inputValue 
+  //* handle inputValue
 
   const handleInputChange = (e) => {
     const { id, value } = e.target;
@@ -15,17 +15,21 @@ export const RegistrationForm = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     console.log(user);
-  }
+  };
 
   return (
     <div className=" h-[100vh] max-w-[100vw] ">
       <div className="lg:max-w-[30vw] bg-amber-300 min-h-[60vh] max-w-[80vw] m-auto mt-1 p-4">
+        <h1>useState Hook</h1>
         <h1 className="text-black text-left text-xl  font-bold">Sign Up</h1>
         <p className="text-black text-left my-1">
           Please fill in this form to create an account
         </p>
 
-        <form className="flex flex-col gap-4" onSubmit={(e) => handleFormSubmit(e)}>
+        <form
+          className="flex flex-col gap-4"
+          onSubmit={(e) => handleFormSubmit(e)}
+        >
           <div className="flex flex-col">
             <label className="text-black text-left" htmlFor="firstName">
               First Name *
@@ -92,10 +96,15 @@ export const RegistrationForm = () => {
             />
           </div>
           <p className="my-2">
-          By creating an account you agree to our{" "}
-          <span className="text-blue-400">Terms & Policy</span>
-        </p>
-        <button className="h-1.5 flex  justify-center items-center" type="submit">Sign Up</button>
+            By creating an account you agree to our{" "}
+            <span className="text-blue-400">Terms & Policy</span>
+          </p>
+          <button
+            className="h-1.5 flex  justify-center items-center"
+            type="submit"
+          >
+            Sign Up
+          </button>
         </form>
       </div>
     </div>
