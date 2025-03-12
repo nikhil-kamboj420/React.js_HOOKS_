@@ -37,6 +37,8 @@ import { CounterPP } from "./components/hooks/useReducer/CounterPP";
   /* Memo Component */
 }
 import MemoComponent from "./components/hooks/memo/MemoComponent";
+      {/* UseCallBack component */}
+import { UseCallBack } from "./components/hooks/useCallBack/UsecallBack";
 
 function App() {
   return (
@@ -65,6 +67,8 @@ function App() {
       <CounterPP />
       {/* Memo Component */}
       <MemoComponent />
+      {/* UseCallBack component */}
+      <UseCallBack/>
     </>
   );
 }
